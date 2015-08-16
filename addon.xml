@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.linecache2"
+       name="linecache2"
+       version="1.1.0"
+       provider-name="Rui Castro">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>A backport of linecache to older supported Pythons.</summary>
+    <description>Packed for KODI from https://pypi.python.org/pypi/linecache2</description>
+    <license>Python Software Foundation License</license>
+    <platform>all</platform>
+    <source>https://github.com/rui-castro/kodi-linecache2</source>
+  </extension>
+</addon>
